@@ -131,6 +131,96 @@
 
         <hr>
 
+        <section id="Membership Form">
+            <h3>Membership Form</h3>
+            <form>
+                <label>First Name:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label>Last Name:</label>
+                <input type="text">
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Select all that apply: </legend>
+                    <input type="checkbox">
+                    <label>Interested in the Project.</label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Want to learn.</label>
+                    <br>
+                    <input type="checkbox">
+                    <label>Just for fun!</label>
+                </fieldset>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>What year are you? </legend>
+                    <div>
+                        <input type="radio" id="1st" name="year" value="1st">
+                        <label for="1st">1st</label>
+                    </div>
+                  
+                    <div>
+                        <input type="radio" id="2nd" name="year" value="2nd">
+                        <label for="2nd">2nd</label>
+                    </div>
+                  
+                    <div>
+                        <input type="radio" id="3rd" name="year" value="3rd">
+                        <label for="3rd">3rd</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="4th" name="year" value="4th">
+                        <label for="4th">4th</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="4+" name="year" value="4+">
+                        <label for="4+">4+</label>
+                    </div>
+                </fieldset>
+                <br>
+                <br>
+                <label for="role">Choose a role you like:</label>
+                <input list="roles" id="role" name="role-choice">
+                <datalist id="roles">
+                    <option value="Project Manager">
+                    <option value="Frontend Developer">
+                    <option value="Backend Developer">
+                    <option value="Data Analyst">
+                    <option value="software engineer">
+                </datalist>
+                <br>
+                <br>
+                <label for="language-select">Choose a favorite programming language</label>
+                <select name="languages" id="language-select">
+                    <option value="">--Please choose your favorite language--</option>
+                    <option>C++</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>JavaScript</option>
+                    <option>Swift</option>
+                    <option>Julia</option>
+                </select>
+                <br>
+                <br>
+                <label for="story">Tell us your story:</label>
+                <textarea id="story" name="story"></textarea>
+                <br>
+                <br>
+                <label for="today">Today's date:</label>
+                <input type="date" id="today" name="signed_day">
+                <br>
+                <br>
+                <button>Submit</button>
+            </form>
+        </section>
+
+        <hr>
+
         <footer>
             <address>
                 For any questions, contact <a href="mailto:gfeghali@ucsd.edu">Georgio Feghali</a>.
