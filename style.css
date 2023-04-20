@@ -15,3 +15,14 @@
 #attendancelist-color {
     color: #5D3FD3
 }
+
+.agenda-background {
+    background-color: aqua;
+}
+
+.primary-background {
+    background-color: gray;
+    height: auto;
+    width: 10cm;
+    padding: 1%;
+}
