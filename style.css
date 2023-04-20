@@ -41,8 +41,50 @@
 
 .form-box {
     width: 15vw;
+    display: inline-block;
+    max-width: 50vw;
+    max-height: none;
 }
 
 .form-box2 {
     width: 9em
+}
+
+.hayalla-margin {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.hayalla-margin2 {
+    margin: 30px 30px 30px 30px;
+}
+
+.padding1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padding2 {
+    padding: 15px 15px 15px 15px;
+}
+
+.border1 {
+    border-style:dotted;
+    border-color: greenyellow;
+    border-width: 10px;
+    border-radius: 0px;
+}
+
+.border2 {
+    border-right-color: blue;
+    border-left-color: blue;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-style: groove;
+    border-radius: 5%;
+    border-width: 10px
 }
