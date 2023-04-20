@@ -1,0 +1,17 @@
+/* This CSS file is for styling the meeting minutes website */
+
+#red-color {
+    color: rgb(255,0,0)
+}
+
+#blue-color {
+    color: blue;
+}
+
+#orange-color {
+    color: hsl(23, 95%, 52%)
+}
+
+#attendancelist-color {
+    color: #5D3FD3
+}
