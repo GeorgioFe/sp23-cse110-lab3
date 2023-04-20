@@ -15,3 +15,34 @@
 #attendancelist-color {
     color: #5D3FD3
 }
+
+.agenda-background {
+    background-color: aqua;
+}
+
+.primary-background {
+    background-color: gray;
+    height: auto;
+    width: 10cm;
+    padding: 15pt;
+}
+
+.text-format {
+    text-decoration:line-through;
+    text-align: center;
+    color: green;
+    display: block;
+    font-size: 20px;
+}
+
+.todo-format {
+    font-size: 1rem
+}
+
+.form-box {
+    width: 15vw;
+}
+
+.form-box2 {
+    width: 9em
+}

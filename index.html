@@ -11,9 +11,9 @@
 
   <body>
     <main>
-
         <header>
-            <h1 id="red-color">CSE 110 Meeting Minutes</h1>
+            <div class="primary-background">
+                <h1 id="red-color">CSE 110 Meeting Minutes</h1>
             <h2 id="blue-color">Meeting X - 04/12/2023</h2>
             <nav>
                 <ul id="orange-color">
@@ -24,12 +24,14 @@
                     <li><a href="#To-do" id="orange-color"><strong>To-do List</strong></a></li>
                 </ul>
             </nav>
+            </div>
         </header>
 
         <hr>
 
         <section id="Attendance_List">
-            <h3>Attendance List</h3>
+            <div class="primary-background">
+                <h3>Attendance List</h3>
             <div>
                 <ul>
                     <li id="attendancelist-color">Georgio <span>Feghali</span></li>
@@ -39,10 +41,12 @@
                     <li id="attendancelist-color">Paul <span>Feghali</span></li>
                 </ul>
             </div>
+            </div>
         </section>
         <hr>
         <section id="Agenda">
-            <h3>Agenda</h3>
+            <div class="agenda-background">
+                <h3>Agenda</h3>
             <ol>
                 <li><b>Introductions</b>
                     <ol>
@@ -83,17 +87,19 @@
                 </li>
                 <li><b>Adjournment</b></li>
             </ol>
+            </div>
         </section>
         <hr>
         <section id="Meeting_Notes">
             <h3>Meeting Notes</h3>
             <details>
                 <summary>Details</summary>
-                <p>On 04/12/2023, the software team met to review the progress made during the previous week, discuss current tasks and assignments, plan for the next sprint, and address any other business. The attendees included Georgio Feghali, Gali Kechichian, Sarkis Bozikian, Andrew Krikorian, and Paul Feghali. During the review of the previous week's progress, Georgio reported completing the login functionality, Gali shared updates on the UI design and received feedback from the team, and Sarkis reported resolving several bugs and testing the code. The team then discussed current tasks and assignments and assigned Georgio to work on the dashboard functionality, Gali to refine the design and layout of the landing page, and Sarkis to fix the remaining bugs in the system. Planning for the next sprint included discussing and agreeing on the goals and priorities, such as adding new features and improving the system's performance. The team also addressed any other business, including a concern raised by Andrew about the project timeline, and discussed potential solutions. The meeting ended with action items assigned to team members to complete the assigned tasks by the 04/18/2023, and a reminder that the next meeting would be on 04/19/2023.
-                </p>
+                    <div class="text-format">On 04/12/2023, the software team met to review the progress made during the previous week, discuss current tasks and assignments, plan for the next sprint, and address any other business. The attendees included Georgio Feghali, Gali Kechichian, Sarkis Bozikian, Andrew Krikorian, and Paul Feghali. During the review of the previous week's progress, Georgio reported completing the login functionality, Gali shared updates on the UI design and received feedback from the team, and Sarkis reported resolving several bugs and testing the code. The team then discussed current tasks and assignments and assigned Georgio to work on the dashboard functionality, Gali to refine the design and layout of the landing page, and Sarkis to fix the remaining bugs in the system. Planning for the next sprint included discussing and agreeing on the goals and priorities, such as adding new features and improving the system's performance. The team also addressed any other business, including a concern raised by Andrew about the project timeline, and discussed potential solutions. The meeting ended with action items assigned to team members to complete the assigned tasks by the 04/18/2023, and a reminder that the next meeting would be on 04/19/2023.
+                    </div>
             </details>
             <br>
-            <img src="assets/Audit-flowchart-Project-management-process.png" alt="IMG" width="600" height="600">
+                <img src="assets/Audit-flowchart-Project-management-process.png" alt="IMG" height="600" width="600">
+            
         </section>
         <hr>
         <section id="Recordings">
@@ -113,13 +119,13 @@
         <hr>
         <section id="To-do">
             <h3>To-do List</h3>
-            <ol>
-                <li>Fix login functionality</li>
-                <li>Refine UI design and layout</li>
-                <li>Test code and resolve bugs</li>
-                <li>Add new features</li>
-                <li>Improve system performance</li>
-            </ol>
+                <ol class="todo-format">
+                    <li>Fix login functionality</li>
+                    <li>Refine UI design and layout</li>
+                    <li>Test code and resolve bugs</li>
+                    <li>Add new features</li>
+                    <li>Improve system performance</li>
+                </ol>
         </section>
 
         <hr>
@@ -135,7 +141,7 @@
                 <input type="text">
                 <br>
                 <br>
-                <fieldset>
+                <fieldset class="form-box">
                     <legend>Select all that apply: </legend>
                     <input type="checkbox">
                     <label>Interested in the Project.</label>
@@ -148,7 +154,7 @@
                 </fieldset>
                 <br>
                 <br>
-                <fieldset>
+                <fieldset class="form-box2">
                     <legend>What year are you? </legend>
                     <div>
                         <input type="radio" id="1st" name="year" value="1st">
