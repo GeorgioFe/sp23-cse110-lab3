@@ -112,6 +112,10 @@ body {
     border-width: 10px
 }
 
+button {
+    background-color: aqua;
+}
+
 button:hover {
     color:hsl(23, 95%, 52%);
 }
@@ -146,4 +150,36 @@ body {
     row-gap: 10px;
     justify-content: center;
     background-color: black;
+}
+
+* a {
+    color: red;
+}
+
+ol[class~="todo-format"] {
+    background-color: #5D3FD3;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li li {
+    list-style-type: lower-alpha;
+}
+
+ul > li {
+    list-style-type: circle;
+}
+
+h3 ~ h4 {
+    color: red;
+}
+
+li + li {
+    list-style-type: armenian;
+}
+
+li.hayalla-margin {
+    background-color: red;
 }
